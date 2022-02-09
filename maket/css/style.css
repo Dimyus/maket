@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.kamron{
+    border: 1px solid blue;
+    max-width: 500px;
+    margin: 0 auto;
+    background: lightgreen;
+    margin-top: 100px;
+    height: 400px;
+}
+.header{
+    background: grey;
+}
+p{
+    margin: 50px 40px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+li:hover{
+    color: silver;
+    background: #fff;
+}
+span{
+    color: blue;
+}
+span:hover{
+    color: red;
+    cursor: pointer;
+}
